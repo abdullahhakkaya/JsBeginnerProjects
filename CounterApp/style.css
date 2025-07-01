@@ -1,0 +1,33 @@
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#btnContainer {
+    text-align: center;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(91, 91, 201);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: rgb(50, 50, 198);
+}
